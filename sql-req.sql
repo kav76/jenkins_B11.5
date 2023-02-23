@@ -3,5 +3,5 @@ FROM full_region fr, rfamseq rf, taxonomy tx
 WHERE rf.ncbi_id = tx.ncbi_id
 AND fr.rfamseq_acc = rf.rfamseq_acc
 AND tx.ncbi_id = 10116 
-AND is_significant = 1
+AND is_significant = 1 
 LIMIT 9
